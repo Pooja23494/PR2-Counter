@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+body {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #212529;
+}
+
+
+.counter-wrapper {
+    width: 100%;
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #ffffff;
+    border-radius: 18px;
+    overflow: hidden;
+    border: 1px solid #dee2e6;
+}
+
+.counter-info {
+    background-color: #212529;
+    color: #ffffff;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter-info h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.counter-info span {
+    font-size: 1.2rem;
+    color: #adb5bd;
+}
+
+.counter-controls {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.counter-controls input {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 30px;
+    border: 1px solid #ced4da;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.counter-controls input:focus {
+    border-color: #495057;
+}
+
+.counter-controls button {
+    padding: 8px 18px;
+    font-size: 1rem;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-group {
+    display: flex;
+    gap: 12px;
+}
+
+.btn-outline {
+    background-color: #a1a8af;
+    color: #212529;
+    border: 1px solid #212529;
+}
+
+.btn-outline:hover {
+    background-color: #212529;
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+.btn-danger {
+    background-color: #fa5252;
+}
+
+.btn-danger:hover {
+    background-color: #e03131;
+    color: white;
+    transform: scale(1.05);
+}
